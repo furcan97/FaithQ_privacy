@@ -11,7 +11,7 @@ FaithQ does not require users to declare a religious identity. Religion and trad
 FaithQ may process:
 
 - Account information, if you sign in with anonymous, Apple, Google, or email authentication.
-- Chat messages and conversation history, when needed to provide the app experience and sync history across devices.
+- Chat messages and conversation history, when needed to provide the app experience and sync history through the user's account.
 - App settings such as theme, answer language, backend URL, and source detail preference.
 - Feedback about answer quality, such as whether a source seemed unrelated or a response sounded too certain.
 - Basic diagnostic and security logs needed to operate, protect, and improve the service.
@@ -58,13 +58,13 @@ FaithQ does not sell user chat content.
 
 ## Data Retention
 
-Conversation history may be retained while the account exists or until the user deletes it. Anonymous/local history may remain on the device unless deleted by the user or app data is cleared.
+Conversation history may be retained while the account exists or until the user deletes it. FaithQ is intended to keep user history, settings, and feedback account-based rather than device-based.
 
 Quality and security logs may be retained for a limited period as needed for safety, abuse prevention, debugging, legal compliance, and service improvement.
 
 ## Account and History Deletion
 
-Users can delete local chat history and account data from the app where supported. Account deletion is intended to remove account-linked chat history, feedback, and personal account data, subject to legal, security, and fraud-prevention retention requirements.
+Users can delete account data from the app where supported. Account deletion is intended to remove account-linked chat history, settings, feedback, and personal account data, subject to legal, security, and fraud-prevention retention requirements.
 
 ## Children
 
@@ -87,4 +87,3 @@ This policy may be updated as FaithQ changes. The effective date will be updated
 ## Contact
 
 For privacy questions or deletion requests, contact the FaithQ operator through the support contact published in the app store listing or project repository.
-
