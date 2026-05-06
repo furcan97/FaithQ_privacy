@@ -16,6 +16,16 @@ https://github.com/furcan97/FaithQ/issues
 
 Please do not include passwords, payment details, private documents, or other unnecessary sensitive information in a support request. Support requests are reviewed as soon as possible, normally within 24-48 hours.
 
+## Terms and Safety Rules
+
+By using FaithGuide, users agree to use the app respectfully and lawfully. FaithGuide has no tolerance for objectionable content, abusive behavior, harassment, hateful content, threats, sexually explicit content, illegal content, harmful instructions, spam, or attempts to misuse the AI chat experience.
+
+Users must not submit content intended to abuse, threaten, harass, exploit, or harm other people or communities. FaithGuide may filter, refuse, or limit unsafe or abusive requests.
+
+Users can report safety or content concerns through the in-app feedback controls or by contacting support at nacnakruf@gmail.com. Safety-related and objectionable-content reports are reviewed within 24 hours.
+
+FaithGuide does not provide a public feed, public user profiles, user-to-user messaging, or a way for users to publish content to other users.
+
 ## Account Deletion
 
 Users can initiate account deletion directly inside the app:
