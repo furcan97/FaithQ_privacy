@@ -1,89 +1,109 @@
-# FaithQ Privacy Policy
+# FaithGuide Support and Privacy
 
-Effective date: May 4, 2026
+Last updated: May 7, 2026
 
-FaithQ is a source-grounded religious Q&A app about Islam, Christianity, and Judaism. This policy explains what information FaithQ may process and how it is used.
+FaithGuide: AI Faith Chat is a source-grounded educational app for questions about Islam, Christianity, and Judaism. This page provides support information, account deletion instructions, safety reporting, and the privacy policy.
 
-## Information We Collect
+## Support
 
-FaithQ does not require users to declare a religious identity. Religion and tradition selections are treated only as question context, not as a user profile category.
+For app questions, bug reports, account deletion help, privacy requests, billing questions, or safety concerns, contact FaithGuide support by email:
 
-FaithQ may process:
+Email: nacnakruf@gmail.com
 
-- Account information, if you sign in with anonymous, Apple, Google, or email authentication.
-- Chat messages and conversation history, when needed to provide the app experience and sync history through the user's account.
+You can also open a support request on GitHub:
+
+https://github.com/furcan97/FaithQ/issues
+
+Please do not include passwords, payment details, private documents, or other unnecessary sensitive information in a support request. Support requests are reviewed as soon as possible, normally within 24-48 hours.
+
+## Account Deletion
+
+Users can initiate account deletion directly inside the app:
+
+1. Open FaithGuide.
+2. Sign in or continue with your account.
+3. Open Settings.
+4. Scroll to the bottom of the Settings page.
+5. Tap Delete account and data.
+6. Confirm deletion.
+
+The app clears local account data and requests deletion of backend account data. If the account uses Firebase authentication, the app also attempts to delete the Firebase account where the current sign-in session permits it.
+
+## Safety and Content Reports
+
+FaithGuide does not provide a public feed, public user profiles, user-to-user messaging, or a way for users to publish content to other users. User text is used as private input to the AI chat experience.
+
+If an answer appears unsafe, abusive, inaccurate, overconfident, or poorly sourced, use the in-app feedback controls on the answer or open a support request. Objectionable, abusive, or safety-related reports are reviewed within 24 hours.
+
+## Privacy Policy
+
+FaithGuide is a source-grounded religious Q&A app. This policy explains what information FaithGuide may process and how it is used.
+
+### Information We Process
+
+FaithGuide does not require users to declare a religious identity. Religion and tradition selections are treated only as question context, not as a user profile category.
+
+FaithGuide may process:
+
+- Account and sign-in identifiers from Firebase Auth, Apple, Google, email, or anonymous guest mode.
+- Chat messages, conversation history, answer context, selected tradition, source interactions, and feedback.
 - App settings such as theme, answer language, backend URL, and source detail preference.
-- Feedback about answer quality, such as whether a source seemed unrelated or a response sounded too certain.
-- Basic diagnostic and security logs needed to operate, protect, and improve the service.
+- Diagnostics, crash reports, usage events, quota events, and app quality logs.
+- Advertising and ad delivery events through Google Mobile Ads.
 
-## How We Use Information
+### How We Use Information
 
-FaithQ uses information to:
+FaithGuide uses information to:
 
-- Provide source-grounded religious Q&A.
-- Store and restore conversation history.
-- Improve retrieval quality, source metadata, safety behavior, and product reliability through human-reviewed quality workflows.
-- Protect the app from abuse, spam, prompt injection attempts, and unauthorized access.
-- Support account deletion and chat deletion requests.
+- Generate and display AI answers.
+- Retrieve and show relevant religious sources.
+- Sync account-scoped conversation history.
+- Manage free usage quotas and abuse prevention.
+- Fix bugs, improve reliability, and understand app quality.
+- Show ads where enabled.
 
-User messages, corrections, votes, and feedback are not treated as religious sources. They are not automatically added to FaithQ's religious source database.
+User messages, corrections, votes, and feedback are not treated as religious sources. They are not automatically added to FaithGuide's religious source database.
 
-## Advertising
+### AI and Backend Processing
 
-FaithQ uses Google AdMob to show ads.
+The app sends chat requests to the FaithGuide backend. The backend sends the user question, relevant conversation context, locale/settings, and retrieved source context to Google Gemini to prepare an answer. Gemini API keys are stored only on the backend and are not included in the mobile app.
 
-Configured AdMob identifiers:
+### Third-Party Services
 
-- App ID: `ca-app-pub-7006529548101132~7601416749`
-- Banner ad unit: `ca-app-pub-7006529548101132/8387884809`
-- Rewarded ad unit: `ca-app-pub-7006529548101132/2260536715`
+FaithGuide may use service providers needed to operate the app, including:
 
-Banner ads may appear persistently in the app. Rewarded ads are optional and should not block the core religious answer experience.
+- Firebase Auth for sign-in.
+- Firebase Crashlytics and Analytics for diagnostics and app quality.
+- Google Gemini for AI answer generation.
+- Google Cloud Run for backend hosting.
+- Google Mobile Ads for ads.
 
-Google AdMob may collect or receive device, advertising, usage, and diagnostic information according to Google's own policies. You can learn more in Google's privacy policy: https://policies.google.com/privacy
+These providers may process data according to their own privacy and security terms. FaithGuide does not sell user chat content and does not use chat content to create religious advertising profiles.
 
-FaithQ does not use chat content to create religious profiles for ad targeting.
+### Advertising
 
-## Religious and Sensitive Information
+FaithGuide may use Google AdMob to show ads. Google AdMob may collect or receive device, advertising, usage, and diagnostic information according to Google's policies. See Google's privacy policy: https://policies.google.com/privacy
 
-FaithQ is designed not to ask for or require a user's religious identity. If users voluntarily include sensitive personal information in chat, FaithQ may process it only to provide the requested app function, safety handling, quality review, or account/history management.
+### Religious and Sensitive Information
 
-Users should avoid entering unnecessary personal, medical, legal, financial, or highly sensitive information.
+FaithGuide is designed not to ask for or require a user's religious identity. If users voluntarily include sensitive personal information in chat, FaithGuide may process it only to provide the requested app function, safety handling, quality review, or account/history management. Users should avoid entering unnecessary personal, medical, legal, financial, or highly sensitive information.
 
-## Data Sharing
+### Data Retention
 
-FaithQ may share data with service providers needed to operate the app, including authentication, hosting, analytics/diagnostics, backend infrastructure, AI provider infrastructure, and advertising services.
+Conversation history may be retained while the account exists or until the user deletes it. Quality and security logs may be retained for a limited period as needed for safety, abuse prevention, debugging, legal compliance, and service improvement.
 
-FaithQ does not sell user chat content.
+### Children
 
-## Data Retention
+FaithGuide is an educational app and is not designed to collect information from children without appropriate consent. If a child or young user appears to be asking sensitive questions, FaithGuide aims to respond with safer, age-appropriate language.
 
-Conversation history may be retained while the account exists or until the user deletes it. FaithQ is intended to keep user history, settings, and feedback account-based rather than device-based.
+### Security
 
-Quality and security logs may be retained for a limited period as needed for safety, abuse prevention, debugging, legal compliance, and service improvement.
+FaithGuide does not store backend API secrets in the mobile app. No internet service can guarantee perfect security, but FaithGuide uses reasonable safeguards to protect data.
 
-## Account and History Deletion
-
-Users can delete account data from the app where supported. Account deletion is intended to remove account-linked chat history, settings, feedback, and personal account data, subject to legal, security, and fraud-prevention retention requirements.
-
-## Children
-
-FaithQ is an educational app and is not designed to collect information from children without appropriate consent. If a child or young user appears to be asking sensitive questions, FaithQ aims to respond with safer, age-appropriate language.
-
-## Security
-
-FaithQ does not store backend API secrets in the mobile app. Secrets such as AI provider keys must be kept on secure backend infrastructure or secret management systems.
-
-No internet service can guarantee perfect security, but FaithQ uses reasonable safeguards to protect data against unauthorized access, loss, misuse, or disclosure.
-
-## International Users
+### International Users
 
 Information may be processed in countries other than where the user lives, depending on service provider infrastructure.
 
-## Changes
+### Changes
 
-This policy may be updated as FaithQ changes. The effective date will be updated when material changes are made.
-
-## Contact
-
-For privacy questions or deletion requests, contact the FaithQ operator through the support contact published in the app store listing or project repository.
+This policy may be updated as FaithGuide changes. The updated date will be changed when material changes are made.
